@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<!-- 1.加上thymeleaf的命名空间 -->
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>hello</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <!-- 2. 使用thymeleaf 用th: （利用形参）从服务端model取值
+        thymeleaf语法相关 ${} -->
+    <p th:text="'hello:'+${name}" ></p>
+</body>
+</html>
